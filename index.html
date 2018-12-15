@@ -1,301 +1,623 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>T.J. Liggett</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/animate.min.css" rel="stylesheet"> 
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/lightbox.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link id="css-preset" href="css/presets/preset1.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
 
-  <head>
+  
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+  <link rel="shortcut icon" href="images/favicon.ico">
+</head><!--/head-->
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+<body>
 
-    <title>Code TJ</title>
+  <!--.preloader-->
+  <div class="preloader"> <i class="fa fa-circle-o-notch fa-spin"></i></div>
+  <!--/.preloader-->
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom fonts for this template -->
-    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="css/resume.min.css" rel="stylesheet">
-
-  </head>
-
-  <body id="page-top">
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <span class="d-block d-lg-none">T.J. Liggett</span>
-        <span class="d-none d-lg-block">
-          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="images/profile.jpg" alt="">
-        </span>
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#education">Education</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
-          </li>
-        </ul>
+  <header id="home">
+    <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="item active" style="background-image: url(images/slider/1.jpg)">
+          <div class="caption">
+            <h1 class="animated fadeInLeftBig">T.J. Liggett <span>Student</span></h1>
+            <p class="animated fadeInRightBig">Computer Science - Data Science - Mathematics - Augustana University</p>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#contact">Contact Me</a>
+          </div>
+        </div>
+        <div class="item" style="background-image: url(images/slider/2.jpg)">
+          <div class="caption">
+            <h1 class="animated fadeInLeftBig">T.J. Liggett <span>Athlete</span></h1>
+            <p class="animated fadeInRightBig">Augustana Vikings Football - Linebacker - Redshirt Freshman</p>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#contact">Contact Me</a>
+          </div>
+        </div>
+        <div class="item" style="background-image: url(images/slider/3.jpg)">
+          <div class="caption">
+            <h1 class="animated fadeInLeftBig">T.J. Liggett <span>Person</span></h1>
+            <p class="animated fadeInRightBig">Coach - Brother - Family - Friend  </p>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#contact">Contact Me</a>
+          </div>
+        </div>
       </div>
-    </nav>
+      <a class="left-control" href="#home-slider" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+      <a class="right-control" href="#home-slider" data-slide="next"><i class="fa fa-angle-right"></i></a>
 
-    <div class="container-fluid p-0">
+      <a id="tohash" href="#services"><i class="fa fa-angle-down"></i></a>
 
-      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
-        <div class="my-auto">
-          <h1 class="mb-0">T.J.
-            <span class="text-primary">Liggett</span>
-          </h1>
-          <div class="subheading mb-5">2001 S Summit Avenue· Sioux Falls, SD 57197 · (651) 432-0156 ·
-            <a href="mailto:trevor.liggett@email.com">trevor.liggett@gmail.com</a>
-          </div>
-          <p class="lead mb-5">I am a student-athlete at Augustana University majoring in Computer Science, Mathematics, and Data Science. I am currently seeking summer internship opportunities.</p>
-          <div class="social-icons">
-            <a href="#">
-              <i class="fab fa-linkedin-in"></i>
-            </a>
-            <a href="#">
-              <i class="fab fa-github"></i>
-            </a>
-            <a href="#">
-              <i class="fab fa-twitter"></i>
-            </a>
-            <a href="#">
-              <i class="fab fa-facebook-f"></i>
-            </a>
-          </div>
+    </div><!--/#home-slider-->
+    <div class="main-nav">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">
+            <h1><img class="img-responsive" src="images/logo.png" alt="logo"></h1>
+          </a>                    
         </div>
-      </section>
-
-      <hr class="m-0">
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
-        <div class="my-auto">
-          <h2 class="mb-5">Experience</h2>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Senior Web Developer</h3>
-              <div class="subheading mb-3">Intelitec Solutions</div>
-              <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">March 2013 - Present</span>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Web Developer</h3>
-              <div class="subheading mb-3">Intelitec Solutions</div>
-              <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">December 2011 - March 2013</span>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Junior Web Designer</h3>
-              <div class="subheading mb-3">Shout! Media Productions</div>
-              <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">July 2010 - December 2011</span>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Web Design Intern</h3>
-              <div class="subheading mb-3">Shout! Media Productions</div>
-              <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">September 2008 - June 2010</span>
-            </div>
-          </div>
-
-        </div>
-
-      </section>
-
-      <hr class="m-0">
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
-        <div class="my-auto">
-          <h2 class="mb-5">Education</h2>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Augustana University</h3>
-              <div class="subheading mb-3">Bachelor of Arts</div>
-              <div>Computer Science, Mathematics, and Data Science</div>
-              <h4>GPA: 3.97</h4>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">August 2017 - May 2021</span>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Rosemount High School</h3>
-              <div class="subheading mb-3">Class of 2017 Valedictorian</div>
-              <p>GPA: 4.00</p>
-              <p>Academic Honors: Valedictorian, National Merit Scholar, National AP Scholar</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">September 2013 - June 2017</span>
-            </div>
-          </div>
-
-        </div>
-      </section>
-
-      <hr class="m-0">
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
-        <div class="my-auto">
-          <h2 class="mb-5">Skills</h2>
-
-          <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-          <ul class="list-inline dev-icons">
-            <li class="list-inline-item">
-              <i class="fab fa-html5"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-css3-alt"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-js-square"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-angular"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-react"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-node-js"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-sass"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-less"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-wordpress"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-gulp"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-grunt"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-npm"></i>
-            </li>
-          </ul>
-
-          <div class="subheading mb-3">Workflow</div>
-          <ul class="fa-ul mb-0">
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Mobile-First, Responsive Design</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Cross Browser Testing &amp; Debugging</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Cross Functional Teams</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Agile Development &amp; Scrum</li>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">                 
+            <li class="scroll active"><a href="#home">Home</a></li>
+            <li class="scroll"><a href="#services">Education</a></li> 
+            <li class="scroll"><a href="#about-us">About Me</a></li>                     
+            <li class="scroll"><a href="#portfolio">Portfolio</a></li>
+            <li class="scroll"><a href="#team">Coaching</a></li>
+            <li class="scroll"><a href="#blog">Tutoring</a></li>
+            <li class="scroll"><a href="#contact">Contact</a></li>       
           </ul>
         </div>
-      </section>
+      </div>
+    </div><!--/#main-nav-->
+  </header><!--/#home-->
+  <section id="services">
+    <div class="container">
+      
+      <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+        <div class="row">
+          <div class="text-center col-sm-8 col-sm-offset-2">
+            <h2>Education</h2>
+            <p>I am an academic junior at Augustana University in Sioux Falls, South Dakota. I currently have a 3.96 GPA. I have already earned 86/124 credits required for graduation, thanks in part to 52 credits I earned in Advanced Placement courses during high school.</p>
+          </div>
+        </div> 
+      </div>
+      
+      <div class="text-center our-services">
+        <div class="row">
+          <div class="col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="service-icon">
+              <i class="fa fa-pencil"></i>
+            </div>
+            <div class="service-info">
+              <h2>Rosemount High School</h2>
+              <p>Over four years at Rosemount I attacked my education with a rigorous schedule of Honors, AP, and dual enrollment courses. I participated in four varsity sports and trained vigorously in pursuit of my dream to play college football.</p>
+              <h3>Academic Achievements</h3>
+              <p>Valedictorian</p>
+              <p>National Merit Scholar</p>
+              <p>National AP Scholar</p>
+              <h3>Extracurricular Achievements</h3>
+              <p>Rosemount Varsity Football Captain</p>
+              <p><a href="http://www.rosemountfootball.com/pat-tillman-award">Rosemount Football Pat Tillman Award </a></p>
+              <p>MFCA Academic All-State Football</p>
+              <p>Academic All-State Track</p>
+              <p>Economics State Competition Third Place</p>
+              <p>Minnesota Weightlifting State Champion</p>
+              <p><a href="https://www.teamusa.org/USA-Weightlifting/Events/2016/June/23/2016-National-Youth-Championships/">USA Weightlifting Youth Nationals 3rd Place</a></p>
+              <p><a href="https://hackclub.com/">Rosemount High School Hack Club Founder</a></p>
+              <p>Minnesota Track State Qualifier (100 meter)</p>
+              <p>Section 3AAA Wrestling All-Academic Team</p>
+              <p>Rosemount High School Student Ambassador</p>
+              <p><a href="http://tliggett.github.io/highschoolresume">High School Online Resume</a></p>
+              
+            </div>
+          </div>
 
-      <hr class="m-0">
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
-        <div class="my-auto">
-          <h2 class="mb-5">Interests</h2>
-          <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-          <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
+          <div class="col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="550ms">
+            <div class="service-icon">
+              <i class="fa fa-university"></i>
+            </div>
+            <div class="service-info">
+              <h2>Augustana University</h2>
+              <p>I was recruited to played football at Augustana. However, I am determined to excel both on the the field and in the classroom. I chose Augustana because of the opportunity to be elite in both academics and athletics.</p>
+              <h3>Majors:</h3>
+              <p>Computer Science</p>
+              <p>Data Science</p>
+              <p>Mathematics</p>
+              <h3>GPA</h3>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="99">3.96</div>
+              </div>
+              <h3>Extracurricular Activities</h3>
+              <p>Augustana Vikings Football</p>
+              <p>Computer Science Tutor</p>
+              <p>Fellowship of Christian Athletes</p>
+              <h3>Early Acomplishments</h3>
+              <p>Trustees Honors Scholarship</p>
+              <p>Athletic Scholarship</p>
+              <p>Flint Hills Resources Discovery Scholarship</p>
+              <p>Mr. Augustana Finalist</p>
+                          
+            </div>
+          </div>
+          
         </div>
-      </section>
-
-      <hr class="m-0">
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
-        <div class="my-auto">
-          <h2 class="mb-5">Awards &amp; Certifications</h2>
-          <ul class="fa-ul mb-0">
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              Google Analytics Certified Developer</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              Mobile Web Specialist - Google Certification</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              1<sup>st</sup>
-              Place - University of Colorado Boulder - Emerging Tech Competition 2009</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              1<sup>st</sup>
-              Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              2<sup>nd</sup>
-              Place - University of Colorado Boulder - Emerging Tech Competition 2008</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              1<sup>st</sup>
-              Place - James Buchanan High School - Hackathon 2006</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              3<sup>rd</sup>
-              Place - James Buchanan High School - Hackathon 2005</li>
-          </ul>
-        </div>
-      </section>
-
+      </div>
+      
+    
+    
+  </section><!--/#services-->
+  
+  <section id="about-us" class="parallax">
+    <div class="container">
+      <div class="row">
+          <div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <h2>About me</h2>
+            <h3>Hometown: Rosemount, Minnesota</h3>
+            <h3>Rosemount Senior High 2017 Graduate</h3>
+            <h3>NCAA Division II Football</h3>
+            <h3>Augustana University Student-Athlete</h3>
+            <h3>Diehard Minnesota Vikings and Ohio State Buckeyes Fan</h3>
+            </div>
+      </div>
     </div>
+  </section><!--/#about-us-->
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <section id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+          <h2>My Portfolio</h2>
+          <p>Most of my experience is in Java, using the IDEs Eclipse and Processing. I dabble in JavaScript, Python, and HTML. </p>
+          <h3>Computer Science Coursework</h3>
+          <table style="width:100%">
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+          <tr>
+            <td>COSC 260</td>
+            <td>Computer Science III</td> 
+            <td>Augustana University</td>
+          </tr>
+          <tr>
+            <td>COSC 235</td>
+            <td>Computer Organization & Architecture</td> 
+            <td>Augustana University</td>
+          </tr>
+          <tr>
+            <td>COSC 211</td>
+            <td>Computer Science II</td> 
+            <td>Augustana University</td>
+          </tr>
+          <tr>
+            <td>COSC 130</td>
+            <td>Ethical Issues in Technology</td> 
+            <td>Augustana University</td>
+          </tr>
+          <tr>
+            <td>COSC 1136</td>
+            <td>Algorithms and Data Structures in Java</td> 
+            <td>Inver Hills Community College</td>
+          </tr>
+          <tr>
+            <td>AP CS-A</td>
+            <td>Advanced Placement Computer Science</td> 
+            <td>Rosemount High School</td>
+          </tr>
+          
+          </table>
+           </div>
+      </div> 
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="1000ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/collisions.png" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>3D Collisions in Java</h3>
+                    <p>Java</p>
+                  </div>
+                  <div class="folio-overview">
+                    <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="collisions.html" ><i class="fa fa-link"></i></a></span>
+                    <span class="folio-expand"><a href="https://github.com/ACS-2016-2017/LIGGETT.T/blob/master/mvc_final/3DimensionalCollisionsinJava.pdf" data-lightbox="portfolio"><i class="fa fa-file"></i></a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="1000ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/mixed.png" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>Mixed Berry Studios</h3>
+                    <p>Java, JavaScript, Android</p>
+                  </div>
+                  <div class="folio-overview">
+                    <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="berryzeus.html" ><i class="fa fa-link"></i></a></span>
+                    <span class="folio-expand"><a href="https://tliggett.github.io/berryZeus"><i class="fa fa-bolt"></i></a></span>  
+                    <span class="folio-expand"><a href="https://tliggett.github.io/raspberrylanes2"><i class="fa fa-sun-o"></i></a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="400ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/grapher.png" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>3D Equation Grapher</h3>
+                    <p>Java</p>
+                  </div>
+                  <div class="folio-overview">
+                    <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="grapher.html" ><i class="fa fa-link"></i></a></span>
+                    <span class="folio-expand"><a href="https://github.com/tliggett/tj3DGrapher" data-lightbox="portfolio"><i class="fa fa-github"></i></a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/apple.png" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>Coursework</h3>
+                    <p>Java, JavaScript</p>
+                  </div>
+                  <div class="folio-overview">
+                    <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="acs.html" ><i class="fa fa-link"></i></a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <div id="portfolio-single-wrap">
+      <div id="portfolio-single">
+      </div>
+    </div><!-- /#portfolio-single-wrap -->
+  </section><!--/#portfolio-->
 
-    <!-- Custom scripts for this template -->
-    <script src="js/resume.min.js"></script>
+  <section id="team">
+    <div class="container">
+      <div class="row">
+        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
+          <h2>Youth Football Coach</h2>
+          <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
+              <div class="member-image">
+                <img class="img-responsive" src="images/photos/coach1.jpg" alt="">
+              </div>
+              </div>
+          <p>At Rosemount I coached youth football for the Rosemount Area Athletic Association (RAAA) for six years. Coaching is an intense passion for me and I have enjoyed every minute of my coaching experience. Coaching is a way for me to make an impact on my community as well as on myself.</p>
+          <p>I coached hundreds of young athletes over my time with RAAA, and it has been a blessing to work with every one of them. As a varsity player, and before that just an older player, I was able to relate with the kids in a way adult coaches couldn't. One day at practice, I taught my players the new defensive coverage I was installing with a reference to Madden, the top football video game played by football fans of all ages. The kids never forgot that concept.</p>
+          <p>What I love most about coaching are the great sports moments I can help create. Sports moments occur at all levels, whether it be the Helmet Catch in the Super Bowl or a player's first tackle in 3rd grade football. These moments teach better than anything I have ever experienced. Through the game winners, the tough losses, and everything in between, we learn key lessons about effort, dedication, and teamwork. </p>
+          <h3>2016: Rosemount 7th Grade Gold Defensive Coordinator</h3>
+          <p>During my senior year of high school, I drastically increased my role with the team by becoming the defensive coordinator for a team of 7th graders. My work consisted of writing a defensive playbook, planning out and executing the defensive part of practice, and teaching players both fundamentals and minutiae of the game. In addition to a playbook, I developed a gameplan each week to combat the opposing team's strengths. I can honestly say coaching that team was one of the best experiences of my life.</p>
+          <h3>Coaching Reviews</h3>
+          <p>-</p>
+          <h4>Keith Werk</h4>
+          <p>Specifically TJ provided a positive and fun experience for all the kids.</p>
+          <p>·        Gave fundamental instruction to all athletes on proper form for blocking and tackling</p>
+          <p>·        Instructed clearly at the level the kids needed to be able to understand what he asked of them</p>
+          <p>·        Continuously encouraged and provided positive feedback during practice and games</p>
+          <p>·        Provided corrective measures to ensure the athletes were learning as they played</p>
+          <p>·        Every practice and game TJ had high energy and positive attitude impacted the kids every day</p>
+          <p>·        TJ came to practice and games prepared with a consistent plan for the kids that way they knew what to expect each practice</p>
+          <p>·        Most of all TJ made playing football fun for [my son] Konner and he loved going to practice and games</p>
+          <p>-</p>
+          <h4>Paul Theisen</h4>
+          <p>TJ has had a very powerful  and impactful impression on my son Carter throughout his early football experience.  He not only coached and helped his Dad with  practices, but I think TJ made a stronger impression on how he showed these boys what dedication and determination can get you.  We followed TJ throughout his middle school and high school seasons, and for a smaller guy in the early years, TJ continued to work hard and show his "team first" approach which landed him a starter and key contributor in his Junior and Senior years.  His hard work in the weight room and on the field of practice continued to make a strong impression on Carter.  Last year, Carter wasn't allowed to carry the ball or catch the ball due to his size, so he was not as interested in playing.  I used TJ as an example of what a team needs to win on all levels, and told him that he could still make a significant difference on and off the field.  The results....Carter's team went on to play in the Championship game, and he was given the Pat Tillman award as a team leader.  
+</p>
+          <p>-</p>
+          <h4>Jennifer Reiland</h4>
+          <p>Our son, Samuel (age 13), thoroughly enjoyed working with TJ and came to know him as a truly valuable coach.  He was dedicated to his players, dependable, flexible and incredibly hardworking.  Beyond that, he was an impressive roll model who demonstrated outstanding academic success in the classroom and sportsmanship as the Captain of the Varsity Rosemount High School football team.  Our family was proud to cheer him on in the stands and share, “He is our coach!” with others.</p>
+          <p>His knowledge of football and expertise in defensive plays was a huge advantage to our team.   He put this skillset to work in order to advance our team’s skills in a manner that they could learn and have fun at the same time.  Many hours were spent developing defensive plays outside of practice and games with each player in mind.   During games, he was always engaged on the sidelines cheering and offering advice to the players.  This made an impact on our son’s confidence and drive when playing.</p>
+          <p>Along with his undeniable talent, TJ has been an absolute joy to get to know. He is a true team player who always manages to foster positive discussions and bring out the best in others.</p>
+          <p>-</p>
+          
+        </div>
+      </div>
+      <div class="row">
+          
+          <div class="col-sm-4">
+            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
+              <div class="member-image">
+                <img class="img-responsive" src="images/photos/gameplan.jpg" alt="">
+              </div>
+              </div>
+              </div>
+            
+          <div class="col-sm-4">
+            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
+              <div class="member-image">
+                <img class="img-responsive" src="images/photos/subs.jpg" alt="">
+              </div>
+              </div>
+              </div>
+              
+              <div class="col-sm-4">
+            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
+              <div class="member-image">
+                <img class="img-responsive" src="images/photos/wristband.jpg" alt="">
+              </div>
+              </div>
+              </div>
+            
+              
+              </div>
+      
+    </div>
+    <!--<div class="container">
+      <div class="row">
+        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
+          <h2>Athletics</h2>
+          <p>At Rosemount High School I have participated in four Varsity sports.</p>
+        </div>
+      </div>
+      <div class="team-members">
+        <div class="row">
+          <div class="col-sm-3">
+            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
+              <div class="member-image">
+                <img class="img-responsive" src="images/team/1.jpg" alt="">
+              </div>
+              <div class="member-info">
+                <h2>Football</h2>
+                <h4>Augustana Football Signee, Rosemount Varsity Captain</h4>
+                <h3>Awards + Achievements</h3>
+                <p>Academic All-State</p>
+                <p>Pat Tillman Award Recipient</p>
+                <p>2x Academic Athlete of the Year</p>
+                <p>All-District</p>
+                <p>2x District Champion</p>
+                <p>Section Champion</p>
+              </div>
+              
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
+              <div class="member-image">
+                <img class="img-responsive" src="images/team/2.jpg" alt="">
+              </div>
+              <div class="member-info">
+                <h2>Olympic Weightlifting</h2>
+                <h4>85 & 94 kg weight class</h4>
+                <h3>Awards + Achievements</h3>
+                <p>2016 State Champion</p>
+                <p>2016 Austin Nationals 3rd Place</p>
+                <p>State Record Clean & Jerk</p>
+                <p>20+ School Records</p>
+                <p>2017 State Runner Up</p>
+                <p>2014 State 4th Place</p>
+              </div>
+            </div>
+            </div>
+          <div class="col-sm-3">
+            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="800ms">
+              <div class="member-image">
+                <img class="img-responsive" src="images/team/3.jpg" alt="">
+              </div>
+              <div class="member-info">
+                <h2>Track & Field</h2>
+                <h4>100 meter Sprinter</h4>
+                <h3>Awards + Achievements</h3>
+                <p>2017 Academic All-State </p>
+                <p>2017 State Qualifier </p>
+                <p>Rosemount All-Time Honor Roll</p>
+                <p>2017 Conference Finalist</p>
+                <p>2017 Section Runner Up</p>
+                <p>2016 Hamline Elite Meet Invitee</p>
+                <p>2017 All-Conference Honorable-Mention</p>
+                </div>
+              
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="1100ms">
+              <div class="member-image">
+                <img class="img-responsive" src="images/team/4.jpg" alt="">
+              </div>
+              <div class="member-info">
+                <h2>Wrestling</h2>
+                <h4>Varsity 220 pound Weight Class</h4>
+                <h3>Awards + Achievements</h3>
+                <p>Academic All-Section</p>
+                <p>20 Wins</p>
+                <p>11 Falls </p>
+                <p>2 Year Letter Winner</p>
+                <p>Northfield Open 4th Place</p>
+                <p>Section 3AA 4th Place</p>
+                </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>            
+    </div>-->
+  </section><!--/#team-->
 
-  </body>
+  <section id="twitter" class="parallax">
+    <div>
+      <a class="twitter-left-control" href="#twitter-carousel" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+      <a class="twitter-right-control" href="#twitter-carousel" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-sm-offset-2">
+            <div class="text-center">
+              <!--i class="fa fa-twitter"></i-->
+              <h4>QUOTES TO LIVE BY</h4>
+            </div>
+            <div id="twitter-carousel" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="item active wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+                  <p>"If your dreams don't scare you they aren't big enough" <a href="#"><span>- Muhammed Ali</span></a></p>
+                </div>
+                <div class="item">
+                  <p>"Hard work beats talent when talent doesn't work hard"<a href="#"><span>-Tim Notke</span></a></p>
+                </div>
+                <div class="item">                                
+                  <p> "Impossible is just a word thrown around by small men who find it easier to live in the world they've been given than to explore the power they have to change it."<a href="#"><span>- Muhammed Ali</span></a></p>
+                </div>
+                <div class="item">                                
+                  <p> "If you can raise the level of effort and performance in those around you, you are officially a leader."<a href="#"><span>- Urban Meyer</span></a></p>
+                </div>
+                <div class="item">                                
+                  <p> "When people said I couldn't, I did. And I will."<a href="#"><span>- Tim Tebow</span></a></p>
+                </div>
+                <div class="item">                                
+                  <p> “I figured something out.  And it is no secret what I figured out.  Whatever the majority of people were doing, I found myself doing the opposite.  I wanted to chase something great.”<a href="#"><span>- Ray Lewis</span></a></p>
+                </div>
+                <div class="item">                                
+                  <p> "Perfection is not attainable, but if we chase perfection we can catch excellence."<a href="#"><span>- Vince Lombardi</span></a></p>
+                </div>
+                <div class="item">                                
+                  <p> "They always leave out one of the most important qualities when evaluating you, Heart.."<a href="#"><span>- Teddy Bridgewater</span></a></p>
+                </div>
+                
+                <div class="item">                                
+                  <p> "I am the greatest, I said that even before I knew I was."<a href="#"><span>- Muhammed Ali</span></a></p>
+                </div>
+                <div class="item">                                
+                  <p> “Wins and losses come a dime a dozen. But effort? Nobody can judge that. Because effort is between you and you.”<a href="#"><span>- Ray Lewis</span></a></p>
+                </div>
+              </div>                        
+            </div>                    
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!--/#twitter-->
 
+  <section id="blog">
+    
+    <div class="container">
+      <div class="row">
+        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
+          <h2>CS Tutoring</h2>
+          <p>I am currently a tutor for Computer Science students here at Augustana</p>
+          <h3>Primary Courses:</h3>
+          <p>Computer Science I</p>
+          <p>Computer Science II</p>
+          <p>Ethical Issues in Technology</p>
+          <p>I will also tutor for other Computer Science and Mathematics Courses.</p>
+          <h3>If you would like to be tutored, please fill out this <a href="https://docs.google.com/forms/d/e/1FAIpQLSd0pt41xgFetrJFSF5vo0_y8HaQMdAy15WiS265YtvwTcdJEA/viewform?usp=sf_link">form</a>.</h3>
+        </div>
+      </div>
+    </div>
+  </section><!--/#blog-->
+
+  <section id="contact">
+    <div id="contact-us" class="parallax">
+      <div class="container">
+        <div class="row">
+          <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <h2>Contact Me</h2>
+            <p> I am currently looking for a summer internship. I want to work somewhere I can gain valuable experience for my future. I have confidence I will have great success in any workplace due to my work ethic, leadership, creativity, intellect, and championship desire. I hope you will consider me as a potential intern this summer. I am excited to contribute to your organization while gaining experience and knowledge that will benefit me both in college and as I begin my career.
+</p>
+          </div>
+        </div>
+        <div class="contact-form wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+          <div class="row">
+            
+            <div class="col-sm-6">
+              <div class="contact-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+                <p>Thank you for your time and consideration!</p>
+                <ul class="address">
+                  
+                  <li><i class="fa fa-phone"></i> <span> Phone:</span> (651) 432-0156 </li>
+                  <li><i class="fa fa-envelope"></i> <span> Email:</span><a href="mailto:trevor.liggett@gmail.com"> trevor.liggett@gmail.com</a></li>
+                  <li><i class="fa fa-github"></i> <span> Github:</span><a href="https://github.com/tliggett"> tliggett</a></li>
+                </ul>
+              </div>                            
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>        
+  </section><!--/#contact-->
+  <footer id="footer">
+    <div class="footer-top wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+      <div class="container text-center">
+        <div class="footer-logo">
+          <a href="https://docs.google.com/document/d/1nk2mCvxhR7av8voRHQkLUnxX5mYZKRi8A__RmzTzF1A/edit?usp=sharing"><img class="img-responsive" src="images/logo.png" alt=""></a>
+        </div>
+        <div class="social-icons">
+          <ul>
+            <li><a class="envelope" href="mailto:trevor.liggett@gmail.com"><i class="fa fa-envelope"></i></a></li>
+            <li><a class="twitter" href="https://twitter.com/tj_liggett"><i class="fa fa-twitter"></i></a></li> 
+            <li><a class="instagram" href="https://www.instagram.com/_tjliggett_/"><i class="fa fa-instagram"></i></a></li>
+            <li><a class="resume" href="https://docs.google.com/document/d/1nk2mCvxhR7av8voRHQkLUnxX5mYZKRi8A__RmzTzF1A/edit?usp=sharing"><i class="fa fa-file-text"></i></a></li>
+            <li><a class="facebook" href="https://www.facebook.com/people/TJ-Liggett/100015170800748"><i class="fa fa-facebook"></i></a></li>
+            <li><a class="linkedin" href="https://www.linkedin.com/in/tjliggett"><i class="fa fa-linkedin"></i></a></li>
+            <li><a  class="github" href = "https://github.com/tliggett"><i class="fa fa-github"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <p>Template: &copy; 2014 Oxygen Theme.</p>
+            <p>Design: &copy; 2018 T.J. Liggett.</p>
+          </div>
+          <div class="col-sm-6">
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+  <script type="text/javascript" src="js/jquery.inview.min.js"></script>
+  <script type="text/javascript" src="js/wow.min.js"></script>
+  <script type="text/javascript" src="js/mousescroll.js"></script>
+  <script type="text/javascript" src="js/smoothscroll.js"></script>
+  <script type="text/javascript" src="js/jquery.countTo.js"></script>
+  <script type="text/javascript" src="js/lightbox.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+
+</body>
 </html>
