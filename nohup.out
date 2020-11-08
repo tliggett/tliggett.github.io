@@ -1,0 +1,4 @@
+Opening in existing browser session.
+[27577:27577:1108/132955.057005:ERROR:broker_posix.cc(43)] Invalid node channel message
+[27561:27561:0100/000000.173776:ERROR:sandbox_linux.cc(374)] InitializeSandbox() called with multiple threads in process gpu-process.
+[27561:27561:0100/000000.174438:ERROR:broker_posix.cc(43)] Invalid node channel message
